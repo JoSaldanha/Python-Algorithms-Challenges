@@ -22,7 +22,7 @@ def is_anagram(_first_string, _second_string):
     sorted_word2 = bubble_sort(second_string)
 
     if first_string == "" or second_string == "":
-        return (first_string, second_string, False)
+        return (sorted_word1, sorted_word2, False)
 
     if sorted_word1 == sorted_word2:
         return (sorted_word1, sorted_word2, True)
